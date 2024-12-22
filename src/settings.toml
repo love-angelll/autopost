@@ -1,10 +1,10 @@
 [telegram]
-api_id = "4943107"
-api_hash = "1b6b2406cbd4895ab8da912f683a1636"
-bot_token = "7965954940:AAGnGHCqwhG379jbV5BhZORtH4XEwK7XTug"
-channel_id = 1002371492875
+api_id = "26831388"
+api_hash = "43ad46e4d53c5ff1ca0e27c9ca4407b7"
+bot_token = "7458801028:AAF2Ze8Ukd1faOI3SGo4nGFzKk6dOGyf9uE"
+channel_id = 1001927626277
 
 [vk]
-token = "vk1.a._6AxwU_qGJXL7vWWZ1WpVgKKcIZfwydq14GjutOzwngyEcuB2NzKODV-3a1xMpwiopa2F1m8sa0_GWUmpASRPCDNYzZKCmIMJI7oI8A-rzU5xbKkkkY3NJtxnzRpfX5Sp8dRCVse8nmZ5lpxjMfgF-5aeveiK6ciPAalTshf-R9xA5QGyXX9X9-pRVG6mx0pVqAwhksoe_iLkXoQqzyGSA"
-user_token = "vk1.a.4RSUi38F8BX8rWFkC_CogqXfvyDsy0klmZfMr9uWMFe51dtWmQcvPcn0qpwlI816WZ3XU9myReH1P73I4RfWcmc90pY_I5-Mu3ODMiXYDC-3dMFWZ7hyfEv9q2o1hdoVIBf3TfLPWYGtsXddbnBScb54TXCg-4B0USq6t8_lBfydO0q0gow7wRKj_RQm0ZjR7ij40Fhmge_894oaQ9ts1g"
-group_id = "227866169"
+token = "vk1.a.BujFws4sioTB7zJ3p5i40Aq9IVWhnnU910z1OCd2teuGXv4ZH2XrA8S-Tlab14XAWRl_OpmMuxHs4sG8-YE-xfWI9NDCE_uMBwFLQHP4njlLAJa8dKuldBPDIoG4GCs2__PEIi165kON4uni8_LB0rxfpC7RAGm4icDXQqrBrZIwkV8fGu1-Dh2V1sdNnVofVYQ_VOwK8rTbAXHkChA8tQ"
+user_token = "vk1.a.bgWN2zuvjShCqKD326a2CxmF5_jj_jVaePV7d3upl5Yczwru_8tVeQ89DWOKn9nVMozHRAm8ZjZY-R9nppKNxa4tVgPlAIegXy-P1730fzxjwAzHnXGDBVRBIXhDUd2KxfUiDF_LSLMTag6ChUrTe-BVNpk4GLbeYSejkJxjJIczkgH8qajImhwgTyaFGoNxs2RC_Bh4sXddOc9B8J0HeQ"
+group_id = "29899402"
