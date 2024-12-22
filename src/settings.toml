@@ -1,0 +1,10 @@
+[telegram]
+api_id = "4943107"
+api_hash = "1b6b2406cbd4895ab8da912f683a1636"
+bot_token = "7965954940:AAGnGHCqwhG379jbV5BhZORtH4XEwK7XTug"
+channel_id = 1002371492875
+
+[vk]
+token = "vk1.a._6AxwU_qGJXL7vWWZ1WpVgKKcIZfwydq14GjutOzwngyEcuB2NzKODV-3a1xMpwiopa2F1m8sa0_GWUmpASRPCDNYzZKCmIMJI7oI8A-rzU5xbKkkkY3NJtxnzRpfX5Sp8dRCVse8nmZ5lpxjMfgF-5aeveiK6ciPAalTshf-R9xA5QGyXX9X9-pRVG6mx0pVqAwhksoe_iLkXoQqzyGSA"
+user_token = "vk1.a.4RSUi38F8BX8rWFkC_CogqXfvyDsy0klmZfMr9uWMFe51dtWmQcvPcn0qpwlI816WZ3XU9myReH1P73I4RfWcmc90pY_I5-Mu3ODMiXYDC-3dMFWZ7hyfEv9q2o1hdoVIBf3TfLPWYGtsXddbnBScb54TXCg-4B0USq6t8_lBfydO0q0gow7wRKj_RQm0ZjR7ij40Fhmge_894oaQ9ts1g"
+group_id = "227866169"
