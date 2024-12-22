@@ -71,21 +71,21 @@ if not os.path.exists(files_dir):
     os.makedirs(files_dir)
 
 def upload_photo_to_vk(photo_path):
-    upload_url = vk_user.photos.getWallUploadServer(group_id=vk_group_id)['upload_url']
+    upload_url = vk_user.photos.getWallUploadServer(group_id=GROUP_ID)['upload_url']
     with open(photo_path, 'rb') as photo_file:
         response = requests.post(upload_url, files={'photo': photo_file}).json()
-    photo = vk_user.photos.saveWallPhoto(group_id=vk_group_id, photo=response['photo'], server=response['server'], hash=response['hash'])[0]
+    photo = vk_user.photos.saveWallPhoto(group_id=GROUP_ID, photo=response['photo'], server=response['server'], hash=response['hash'])[0]
     return f"photo{photo['owner_id']}_{photo['id']}"
 
 def upload_document_to_vk(doc_path, title):
-    upload_url = vk_user.docs.getWallUploadServer(group_id=vk_group_id)['upload_url']
+    upload_url = vk_user.docs.getWallUploadServer(group_id=GROUP_ID)['upload_url']
     with open(doc_path, 'rb') as doc_file:
         response = requests.post(upload_url, files={'file': doc_file}).json()
     doc = vk_user.docs.save(file=response['file'], title=title)[0]
     return f"doc{doc['owner_id']}_{doc['id']}"
 
 def upload_video_to_vk(video_path, name):
-    save_response = vk_user.video.save(name=name, group_id=vk_group_id, is_private=0)
+    save_response = vk_user.video.save(name=name, group_id=GROUP_ID, is_private=0)
     upload_url = save_response['upload_url']
     with open(video_path, 'rb') as video_file:
         response = requests.post(upload_url, files={'video_file': video_file}).json()
@@ -134,7 +134,7 @@ async def handler(event):
                     logging.info("Обработка веб-страницы")
                     # Обработка ссылок
                     formatted_message = format_message_for_vk(media)
-                    vk_group.wall.post(owner_id=-int(vk_group_id), message=formatted_message)
+                    vk.wall.post(owner_id=-int(GROUP_ID), message=formatted_message)
                     return
 
                 else:
@@ -166,7 +166,7 @@ async def handler(event):
                 logging.info("Обработка веб-страницы")
                 # Обработка ссылок
                 formatted_message = format_message_for_vk(message)
-                vk_group.wall.post(owner_id=-int(vk_group_id), message=formatted_message)
+                vk.wall.post(owner_id=-int(GROUP_ID), message=formatted_message)
                 return
 
             else:
@@ -175,7 +175,7 @@ async def handler(event):
         # Отправка текстового сообщения с сохранением форматирования
         formatted_message = format_message_for_vk(message)
         for part in split_message(formatted_message):
-            vk_group.wall.post(owner_id=-int(vk_group_id), message=part, attachments=','.join(attachments))
+            vk.wall.post(owner_id=-int(GROUP_ID), message=part, attachments=','.join(attachments))
         logging.info(f"Сообщение опубликовано в VK: {formatted_message}")
 
     except Exception as e:
