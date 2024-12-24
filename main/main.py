@@ -37,7 +37,7 @@ async def upload_to_vk(message):
         elif message.video:
             file_path = await message.download_media(file=TEMP_FOLDER)
             video = vk_upload.video(video_file=file_path, group_id=group_id, name=message.text or "Video")
-            attachments.append(f"video{video['owner_id']}_{video['id']}")
+            attachments.append(f"video{video['owner_id']}_{video['video_id']}")
             os.remove(file_path)
 
         # Формирование текста сообщения
