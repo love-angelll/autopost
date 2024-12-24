@@ -13,9 +13,10 @@ main
 ├── main
 │   ├── files             # Папка где временно сохраняется фото, видео. Потом сами удаляются.
 │   ├── main.py           # Основная логика для скрипта автоматической публикации
-│   ├── settings.toml       # Конфигурационный файл для учетных данных API
+│   ├── settings.toml     # Конфигурационный файл для учетных данных API
+│   ├── settings.py       # Файл загрузки конфигурации
 │   ├── logs.log          # Логи скрипта
-│   └── helpers.py          # Служебные функции для анализа и форматирования сообщений
+│   └── helpers.py        # Служебные функции для анализа и форматирования сообщений
 ├── requirements.txt      # Необходимые библиотеки для проекта
 └── README.md             # Документация по проекту
 ```
@@ -31,7 +32,6 @@ channel_id = 1001927626277
 
 [vk]
 token = "vk1.a.BujFws4sioTB7zJ3p5i40Aq9IVWhnnU910z1OCd2teuGXv4ZH2XrA8S-Tlab14XAWRl_OpmMuxHs4sG8-YE-xfWI9NDCE_uMBwFLQHP4njlLAJa8dKuldBPDIoG4GCs2__PEIi165kON4uni8_LB0rxfpC7RAGm4icDXQqrBrZIwkV8fGu1-Dh2V1sdNnVofVYQ_VOwK8rTbAXHkChA8tQ"
-user_token = "vk1.a.bgWN2zuvjShCqKD326a2CxmF5_jj_jVaePV7d3upl5Yczwru_8tVeQ89DWOKn9nVMozHRAm8ZjZY-R9nppKNxa4tVgPlAIegXy-P1730fzxjwAzHnXGDBVRBIXhDUd2KxfUiDF_LSLMTag6ChUrTe-BVNpk4GLbeYSejkJxjJIczkgH8qajImhwgTyaFGoNxs2RC_Bh4sXddOc9B8J0HeQ"
 group_id = "29899402"
  ```
 
