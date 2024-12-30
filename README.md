@@ -4,13 +4,13 @@
 
 ## Содержание RU
 1. [Вступление](https://github.com/love-angelll/autopost/#[RU]-Бот-для-автоматической-публикации-сообщений-из-Telegram-в-ВКонтакте)
-2. [Зачем нужен ?](https://github.com/love-angelll/autopost/#Зачем нужен этот проект ?)
-3. [Как работает ?](https://github.com/love-angelll/autopost/#Как работает скрипт ?)
-4. [Структура проекта](https://github.com/love-angelll/autopost/#Структура проекта)
-5. [Какие медиафайлы может пересылать ?](https://github.com/love-angelll/autopost/#Какие медиафайлы может пересылать бот ?)
-6. [Пример использования](https://github.com/love-angelll/autopost/#Пример использования)
-7. [Установка и запуск проекта](https://github.com/love-angelll/autopost/#Установка и запуск проекта)
-8. [Подробности реализации](https://github.com/love-angelll/autopost/#Подробности реализации)
+2. [Зачем нужен ?](https://github.com/love-angelll/autopost/#Зачем-нужен-этот-проект-?)
+3. [Как работает ?](https://github.com/love-angelll/autopost/#Как-работает-скрипт-?)
+4. [Структура проекта](https://github.com/love-angelll/autopost/#Структура-проекта)
+5. [Какие медиафайлы может пересылать ?](https://github.com/love-angelll/autopost/#Какие-медиафайлы-может-пересылать-бот-?)
+6. [Пример использования](https://github.com/love-angelll/autopost/#Пример-использования)
+7. [Установка и запуск проекта](https://github.com/love-angelll/autopost/#Установка-и-запуск-проекта)
+8. [Подробности реализации](https://github.com/love-angelll/autopost/#Подробности-реализации)
 9. [Особенности](https://github.com/love-angelll/autopost/#Особенности)
 10. [Содействие](https://github.com/love-angelll/autopost/#Содействие)
 
