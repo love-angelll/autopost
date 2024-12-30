@@ -1,3 +1,13 @@
+"""
+[RU] Тут тот же самый код , только с добавлением основных коментариев в коде , сделано это для пользователей которые хотят ознакомится с кодом и основными блоками кода.
+
+[EN] Here is the same code, only with the addition of basic comments in the code, this is done for users who want to familiarize themselves with the code and the main blocks of code. 
+
+TELEGRAM: @iv_frunza
+Instagram: @iv.frunza
+VK: @iv.frunza
+"""
+
 # Импортируем необходимые библиотеки
 import logging
 import os
