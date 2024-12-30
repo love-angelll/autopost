@@ -1,32 +1,20 @@
 """
 1. RU - Русский язык (Russian)
-
 2. EN - Английский язык (English)
-
 3. ES - Испанский (Spanish)
-
 4. FR - Французский (French)
-
 5. DE - Немецкий (German)
-
 6. IT - Итальянский (Italian)
-
 7. ZH - Китайский (Chinese, Simplified)
-
+------------------------------------------------
 [RU] Тут тот же самый код , только с добавлением основных коментариев в коде , сделано это для пользователей которые хотят ознакомится с кодом и основными блоками кода.
-
 [EN] Here is the same code, only with the addition of basic comments in the code, this is done for users who want to familiarize themselves with the code and the main blocks of code.
-
 [ES] Aquí está el mismo código, pero con la adición de comentarios básicos en el código. Esto se hace para los usuarios que desean familiarizarse con el código y los bloques principales de código.
-
 [FR] Voici le même code, mais avec l'ajout de commentaires de base dans le code. Cela est fait pour les utilisateurs qui souhaitent se familiariser avec le code et les blocs principaux du code.
-
 [DE] Hier ist derselbe Code, jedoch mit der Ergänzung von grundlegenden Kommentaren im Code. Dies wurde für Benutzer gemacht, die sich mit dem Code und den Hauptblöcken des Codes vertraut machen möchten.
-
 [IT] Ecco lo stesso codice, ma con l'aggiunta di commenti di base nel codice. Questo è stato fatto per gli utenti che desiderano familiarizzare con il codice e i blocchi principali del codice.
-
 [ZH] (简体中文) 这是相同的代码，但在代码中添加了基本注释。这是为想要了解代码及其主要代码块的用户准备的。 
-
+------------------------------------------------
 TELEGRAM: @iv_frunza
 Instagram: @iv.frunza
 VK: @iv.frunza
