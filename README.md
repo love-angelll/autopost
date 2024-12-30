@@ -3,7 +3,7 @@
 </div>
 
 ## Содержание RU
-1. [Вступление](https://github.com/love-angelll/autopost/#[RU] Бот для автоматической публикации сообщений из Telegram в ВКонтакте)
+1. [Вступление](https://github.com/love-angelll/autopost/#[RU]-Бот-для-автоматической-публикации-сообщений-из-Telegram-в-ВКонтакте)
 2. [Зачем нужен ?](https://github.com/love-angelll/autopost/#Зачем нужен этот проект ?)
 3. [Как работает ?](https://github.com/love-angelll/autopost/#Как работает скрипт ?)
 4. [Структура проекта](https://github.com/love-angelll/autopost/#Структура проекта)
