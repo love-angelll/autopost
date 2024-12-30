@@ -238,8 +238,9 @@ Feel free to submit issues or pull requests. If you have any questions, contact 
 
 <div align="center" style="margin-top: 20px;">
     <p>Project By: <strong>Ivan Frunza</strong></p>
-    <img src="https://via.placeholder.com/400x100?text=Фрунза" alt="Handwritten Frunza" style="max-width: 100%; height: auto;">
+    <img src="https://raw.githubusercontent.com/username/repository/branch/path/to/signature.png" 
+         alt="Handwritten Frunza" 
+         style="max-width: 100%; height: auto;">
 </div>
-
 
 
