@@ -236,11 +236,4 @@ Feel free to submit issues or pull requests. If you have any questions, contact 
 [![VK Основной](https://img.shields.io/badge/VK%20Основной-4A76A8?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/iv.frunza)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iv.frunza) 
 
-<div align="center" style="margin-top: 20px;">
-    <p>Project By: <strong>Ivan Frunza</strong></p>
-    <img src="https://github.com/love-angelll/love-angelll/blob/main/podpis.png" 
-         alt="Handwritten Frunza" 
-         style="max-width: 100%; height: auto;">
-</div>
-
 
