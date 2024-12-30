@@ -22,12 +22,12 @@
 ```
 autoposting
 ├── main
-│   ├── LICENSE           # Лицензия проекта
-│   ├── main.py           # Основная логика 
-│   ├── .env              # Конфигурационный файл для учетных данных API
-│   ├── Примеры           # Примеры работы бота
+│   ├── main.py           # Основная логика
+│   ├── .env              # Файл конфигурации для учетных данных API
 ├── requirements.txt      # Необходимые библиотеки для проекта
-└── README.md             # Документация по проекту
+├── EXAMPLES              # Примеры проекта
+├── LICENSE               # Лицензия на проект
+└── README.md             # Проектная документация
 ```
 
 ## Какие медиафайлы может пересылать бот ?
@@ -91,7 +91,7 @@ autoposting
    Приложение можно запустить с помощью следующей команды:
 
    ```bash
-   python app.py
+   python main.py
    ```
 
 #### Подробности реализации
@@ -140,12 +140,12 @@ Many users and community administrators face the need to duplicate content acros
 ```
 autoposting
 ├── main
-│   ├── LICENSE           # Project License
-│   ├── main.py           # Basic Logic 
+│   ├── main.py           # Main logic
 │   ├── .env              # Configuration file for API credentials
-│   ├── Примеры           # Examples of bot work
 ├── requirements.txt      # Required libraries for the project
-└── README.md             # Project Documentation
+├── EXAMPLES              # Project examples
+├── LICENSE               # Project license
+└── README.md             # Project documentation
 ```
 
 ## What types of media can the bot forward?
@@ -206,7 +206,7 @@ VK_GROUP_ID=YOUR_VK_GROUP_ID
 
 Launch the app with the following command:
 ```
-python app.py
+python main.py
 ```
 
 
@@ -235,3 +235,6 @@ Feel free to submit issues or pull requests. If you have any questions, contact 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/iv_frunza)
 [![VK Основной](https://img.shields.io/badge/VK%20Основной-4A76A8?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/iv.frunza)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iv.frunza) 
+
+
+
