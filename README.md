@@ -132,6 +132,8 @@ autoposting
 [![VK Основной](https://img.shields.io/badge/VK%20Основной-4A76A8?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/iv.frunza)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iv.frunza)
 
+<p align="center"><img alt="Stars" src="https://img.shields.io/github/stars/love-angelll/autopost?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/love-angelll/autopost?style=flat-square&labelColor=343b41"/></p>
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # [EN] Bot for Automatic Posting from Telegram to VKontakte
