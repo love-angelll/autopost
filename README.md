@@ -5,7 +5,7 @@
 > [!WARNING]
 > Проект находится ещё в разработке !
 
-# [RU] Бот для автоматической публикации сообщений из Telegram в ВКонтакте
+## Бот для автоматической публикации сообщений из Telegram в ВКонтакте
 
 Этот проект представляет собой скрипт на Python, который автоматически публикует сообщения из Telegram-канала или чата в указанную группу ВКонтакте. Он поддерживает различные типы контента, включая текст, изображения, видео и ссылки.
 
@@ -136,7 +136,7 @@ autoposting
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# [EN] Bot for Automatic Posting from Telegram to VKontakte
+## Bot for Automatic Posting from Telegram to VKontakte
 
 This project is a Python script that automatically posts messages from a Telegram channel or chat to a specified VKontakte group. It supports various content types, including text, images, videos, and links.
 
