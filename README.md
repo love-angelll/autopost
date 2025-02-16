@@ -10,15 +10,17 @@
 Этот проект представляет собой скрипт на Python, который автоматически публикует сообщения из Telegram-канала или чата в указанную группу ВКонтакте. Он поддерживает различные типы контента, включая текст, изображения, видео и ссылки.
 
 # Содержание (в процессе)
+
 1. [Зачем нужен?](#why-needed)
 2. [Как работает?](#how-it-works)
 3. [Структура проекта](#project-structure)
 4. [Какие медиафайлы может пересылать?](#media-support)
 5. [Пример использования](#example)
 6. [Установка и запуск проекта](#installation)
-7. [Подробности реализации](#implementation)
-8. [Особенности](#features)
-9. [Содействие](#contribution)
+7. [Установка и запуск проекта при помощи Docker Compose](#installation_docker)
+8. [Подробности реализации](#implementation)
+9. [Особенности](#features)
+10. [Содействие](#contribution)
 
 <h2 id="why-needed">Зачем нужен этот проект?</h2>
 
@@ -75,24 +77,24 @@ autoposting
 <h2 id="installation">Установка и запуск проекта</h2>
 
 1. **Склонируйте репозиторий:**
-
+   
    ```bash
    git clone https://github.com/love-angelll/autopost
    cd autopost
    ```
 
 2. **Установите необходимые зависимости:**
-
+   
    Убедитесь, что у вас установлен `pip`. Затем выполните команду:
-
+   
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Настройка окружения:**
-
+   
    Создайте файл `.env` в корне проекта и добавьте необходимые переменные окружения. Пример файла `.env`:
-
+   
    ```env
    VK_API_TOKEN=YOUR_VK_API_TOKEN
    TELEGRAM_API_TOKEN=YOUR_TELEGRAM_API_TOKEN
@@ -101,12 +103,43 @@ autoposting
    ```
 
 4. **Запуск приложения:**
-
+   
    Приложение можно запустить с помощью следующей команды:
-
+   
    ```bash
    python main.py
    ```
+   
+   <h2 id="installation_docker">Установка и запуск проекта при помощи Docker Compose</h2>
+
+1. **Склонируйте репозиторий:**
+   
+   ```bash
+   git clone https://github.com/love-angelll/autopost
+   cd autopost
+   ```
+
+2. **Настройка окружения:**
+   
+   Отредактируйте файл `compose.yaml`, укажите необходимые переменные окружения в разделе `environment:`. Пример:
+   
+   ```yaml
+    environment:
+      - VK_API_TOKEN=YOUR_VK_API_TOKEN
+      - TELEGRAM_API_TOKEN=YOUR_TELEGRAM_API_TOKEN
+      - TELEGRAM_CHANNEL_USERNAME=YOUR_TELEGRAM_CHANNEL_USERNAME
+      - VK_GROUP_ID=YOUR_VK_GROUP_ID
+   ```
+
+3. **Запуск приложения:**
+   
+   Контейнер с приложением можно запустить с помощью следующей команды:
+   
+   ```bash
+   docker compose up -d
+   ```
+   
+   В результате будет собран и запущен Docker контейнер с именем `autopost`.
 
 <h2 id="implementation">Подробности реализации</h2>
 
@@ -196,14 +229,15 @@ Thus, the script supports a wide range of media files, ensuring flexibility and 
 
 ### 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/love-angelll/autopost
-   cd autopost
-   ```
+```bash
+git clone https://github.com/love-angelll/autopost
+cd autopost
+```
 
 ### 2. **Install dependencies:**
 
 Ensure pip is installed, then execute:
+
 ```
 pip install -r requirements.txt
 ```
@@ -211,6 +245,7 @@ pip install -r requirements.txt
 ### 3. Set up the environment:
 
 Create a .env file in the project root and add the required environment variables. Example .env file:
+
 ```env
 VK_API_TOKEN=YOUR_VK_API_TOKEN
 TELEGRAM_API_TOKEN=YOUR_TELEGRAM_API_TOKEN
@@ -221,10 +256,41 @@ VK_GROUP_ID=YOUR_VK_GROUP_ID
 ### 4. Run the application:
 
 Launch the app with the following command:
-```
+
+```bash
 python main.py
 ```
 
+## Installation and Launch with Docker Compose
+
+### 1. **Clone the repository:**
+
+```bash
+git clone https://github.com/love-angelll/autopost
+cd autopost
+```
+
+### 2. Set up the environment:
+
+Edit `compose.yaml` file and add the required variables in `environment:` section. Example:
+
+```yaml
+environment:
+  - VK_API_TOKEN=YOUR_VK_API_TOKEN
+  - TELEGRAM_API_TOKEN=YOUR_TELEGRAM_API_TOKEN
+  - TELEGRAM_CHANNEL_USERNAME=YOUR_TELEGRAM_CHANNEL_USERNAME
+  - VK_GROUP_ID=YOUR_VK_GROUP_ID
+```
+
+### 3. Run the application:
+
+Launch the app container with the following command:
+
+```bash
+docker compose up -d
+```
+
+In result Docker conteiner app named `autopost` will be build and run.
 
 #### Implementation Details
 
@@ -236,13 +302,11 @@ python main.py
 - **`rlottie-python:`** Library for working with animations.
 - **`moviepy:`** Library for video editing.
 
-
 ## Features
 
 - Supports posting of text messages, images, videos, and links.
 - Configurable through a simple TOML file.
 - Logs activity, aiding in debugging and monitoring.
-
 
 ## Contribution
 
@@ -251,5 +315,3 @@ Feel free to submit issues or pull requests. If you have any questions, contact 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/iv_frunza)
 [![VK Основной](https://img.shields.io/badge/VK%20Основной-4A76A8?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/iv.frunza)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iv.frunza) 
-
-

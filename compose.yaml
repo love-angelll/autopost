@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autopost
+    environment:
+      - VK_API_TOKEN=YOUR_VK_API_TOKEN
+      - TELEGRAM_API_TOKEN=YOUR_TELEGRAM_API_TOKEN
+      - TELEGRAM_CHANNEL_USERNAME=YOUR_TELEGRAM_CHANNEL_USERNAME
+      - VK_GROUP_ID=YOUR_VK_GROUP_ID
+    restart: unless-stopped

@@ -6,7 +6,7 @@ from typing import List
 from requests.exceptions import ConnectionError
 
 from aiogram import Bot, Dispatcher, F, types
-from background import keep_alive
+# from background import keep_alive
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import ContentType, Message
 from aiogram_media_group import MediaGroupFilter, media_group_handler
@@ -16,7 +16,7 @@ from vk_api.upload import VkUpload
 from vk_api.utils import get_random_id
 from PIL import Image, UnidentifiedImageError
 from rlottie_python import LottieAnimation
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
